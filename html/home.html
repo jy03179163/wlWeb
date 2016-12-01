@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>HOME</title>
+	<link rel="stylesheet" href="../js/base/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../web.css">
+	<script src="../js/base/jquery-3.1.1.js"></script>
+	<script src="../js/base/bootstrap.min.js"></script>
+	<script src="../js/menuTab.js"></script>
+	<script src="../js/home.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-1">
+				<div id="homePageLeftDiv" class="homePageLeftDiv">
+					<ul class="nav nav-pills nav-stacked">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">购货</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">销货</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">仓库</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">资金</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">报表</a>
+						</li>
+						<li class="nav-item"><a class="nav-link"  href="#">设置</a>
+							<ul class="dropdown-menu">
+								<li  class="dropdown">
+									<a  href="#">账户管理</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-11">
+				<div id="headerDiv" class="row">
+					<div class="col-sm-6">
+						<div class="headerStoreNameDiv">
+							<span class="font-weight-bold headerStoreName">锦州百货大楼家电分公司</span>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="headerUserDiv">
+							<span><a href="#">退出</a></span>
+						</div>
+					</div>
+				</div>
+				<div id="menuTabDiv" class="row">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link active" id="myHomePage" href="#home">
+								<span>我的主页</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div id="mainDiv">
+					<div class="tab-content" id="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="home">
+							<input type="button" id="demoButton"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
